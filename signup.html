@@ -4,158 +4,74 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Lyft</title>
-	<link rel="shortcut icon" type="image/png" href="img/icono.jpg"/>
+	<link rel="shortcut icon" type="image/png" href="img/bigote.PNG"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	
-	<div class="imgFondoSign">
+<body class="imgFondoSign">
 	<!-- header -->
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col m12 s12 center card-panel transparent">
-					<ul class="pagination">
-						<li class="disabled">
-							<a href="index.html"><i class="material-icons">chevron_left</i></a>
-						</li>
-						<li class="waves-effect"><a href="#">Sign up</a></li>
-					</ul>
+				<div class="col s12 center card-panel transparent pagination disabled">
+					<a href="index.html"><i class="material-icons left">chevron_left</i></a>
+					<h5>Sign up</h5>
 					<p>Join now for free ride credit</p>
-					<!-- <hr> -->
 				</div>
 			</div>
 		</div>
 	</header>
 
-<!-- 	<div class="container">
+	<div class="container">
 		<div class="row card-panel transparent">
-			<div class="col s2 m2">
-				Dropdown Trigger
-				<a class='dropdown-button btn transparent' href='#' data-activates='dropdown1'><i class="material-icons">flag</i></a>
-				Dropdown Structure
-				<ul id='dropdown1' class='dropdown-content'>
-					<li><a href="#!">Chile</a></li>
-					<li><a href="#!">Mexico</a></li>
-					<li class="divider"></li>
-					<li><a href="#!">Peru</a></li>
-				</ul>
-			</div>
-			<div class="col s2 m2">
-				<a class='dropdown-button btn transparent' href='#' data-activates='dropdown1'><i class="material-icons">flag</i></a>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <hr> -->
-	<!-- <div class="imgFondoSign"> -->
-		<!-- <div class="container">
-			<div class="row">
-				<div class="col m12 s12 center card-panel transparent">
-					<ul class="pagination">
-						<li class="disabled">
-							<a href="#"><i class="material-icons">chevron_left</i></a>
-						</li>
-						<li class="waves-effect"><a href="#">Sign up</a></li>
-					</ul>
-					<p>Join now for free ride credit</p>
-					<hr>
+			<div class="col s12">
+				<div class="col s3">
+					<!-- <label>Browser Select</label> -->
+					<select class="browser-default">
+						<option value="" disabled selected>
+							<img src="" alt="">
+						</option>
+						<option data-icon="img/img_paises/Chile.png" value="1">Chile</option>
+						<option value="2">Peru</option>
+						<option value="3">Mexico</option>
+					</select>
 				</div>
-			</div>
-		</div> -->
-
-		<div class="container">
-
-			<div class="row card-panel transparent">
-				<div class="col s12 m12">
-					<div class="col s2 m1">
-						<label>Browser Select</label>
-						<select class="browser-default">
-							<option value="" disabled selected>
-								<img src="" alt="">
-							</option>
-							<option data-icon="img/img_paises/Chile.png" value="1">Chile</option>
-							<option value="2">Peru</option>
-							<option value="3">Mexico</option>
-						</select>
-					</div>
-					<div class="col s10 m10">
-						<label>Browser Select</label>
-						<select class="browser-default">
-							<option value="" disabled selected></option>
-							<option value="1"></option>
-							<option value="2"></option>
-							<option value="3"></option>
-						</select>
-
-					</div>
-				</div>
-			</div>
-			<p class="center">We'll send a text to verify your phone</p>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col m12 s11 center">
-					<button class="btn-large waves-effect waves-light purple accent-4 botonNext" type="submit" name="action">Next
-						<!-- <i class="material-icons right"> send</i> -->
-					</button>		
-					<!-- <a class="waves-effect waves-light btn-large"><i class="material-icons left"></i>button</a> -->
+				<div class="col s9">
+					<!-- <label>Browser Select</label> -->
+					<select class="browser-default">
+						<option value="" disabled selected></option>
+						<option value="1"></option>
+						<option value="2"></option>
+						<option value="3"></option>
+					</select>
 				</div>
 			</div>
 		</div>
+		<p class="center">We'll send a text to verify your phone</p>
+	</div>
 
-		<form action="">
+	<div class="container">
+		<div class="row">
+			<div class="col s12 center">
+				<a href="signup 2.html" class="btn-large waves-effect waves-light purple accent-4 botonNext">Next
+					<input type="tel" name="telefono">	
+				</a>	
+			</div>
+		</div>
+	</div>
+
+		<!-- <form action="">
 			<input type="tel" name="telefono">
 		</form>
 		<input type="tel" name="telefono">
 		<form name="ejemplo1" action="15-html5-tel-input.php" method="POST">
 			Introduce tu TELEFONO: <input type="tel" name="telefono">
 			<input type="submit" value="Enviar">
-		</form>
+		</form> -->
 
-
-
-
-		<!-- <div class="container">
-			<div class="row">
-				<div class="col m12 s12">
-
-					<form action="">
-						<p>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">1</i>1</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">2</i>2</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">3</i>3</a>
-						</p>
-						<p>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">4</i>4</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">5</i>5</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">6</i>6</a>
-						</p>
-						<p>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">7</i>7</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">8</i>8</a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">9</i>9</a>
-						</p>
-						<p>
-							<a class="btn-large disabled"><i class="material-icons left">x</i></a>
-							<a class="btn-large waves-effect transparent"><i class="material-icons left">0</i>0</a>
-							<a class="btn-large disabled"><i class="material-icons left">backspace</i></a>
-						</p>
-					</form>
-				</div>
-			</div>
-		</div> -->
-
-
-	</div>
-	</div>
-
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
-	<script type="text/javascript" src="js/materialize.min.js" ></script>
-	<script type="text/javascript" src="js/script.js" ></script>
-</body>
-</html>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/materialize.min.js" ></script>
+		<script type="text/javascript" src="js/script.js" ></script>
+	</body>
+	</html>

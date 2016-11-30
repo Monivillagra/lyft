@@ -4,131 +4,63 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Lyft</title>
-	<link rel="shortcut icon" type="image/png" href="img/icono.jpg"/>
+	<link rel="shortcut icon" type="image/png" href="img/bigote.PNG"/>
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<div class="imgFondoSign">
+<body class="imgFondoSign">
+	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col m12 s12 center card-panel transparent">
-					<ul class="pagination">
-						<li class="disabled">
-							<a href="#"><i class="material-icons">chevron_left</i></a>
-						</li>
-						<li class="waves-effect"><a href="#">Sign up</a></li>
-					</ul>
+				<div class="col s12 center card-panel transparent pagination disabled">
+					<a href="signup.html"><i class="material-icons left">chevron_left</i></a>
+					<h5>Sign up</h5>
 					<p>Join now for free ride credit</p>
-					<!-- <hr> -->
 				</div>
 			</div>
 		</div>
+	</header>
 
-		<div class="container">
-			<div class="row card-panel transparent">
-				<form class="col s12 m12">
-					<div class="row">
-						<div class="input-field col s6 m6">
-						<i class="material-icons">account_circle</i>
-							<input id="first_name" type="text" class="validate">
-							<label for="first_name">First Name</label>
-						</div>
-						<div class="input-field col s6 m6">
-						<i class="material-icons">account_circle</i>
-							<input id="last_name" type="text" class="validate">
-							<label for="last_name">Last Name</label>
-						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12 m12">
-						<i class="material-icons">mail_outline</i>
-							<input id="email" type="email" class="validate">
-							<label for="email">Email</label>
-						</div>
-					</div>
+	<div class="container">
+		<div class="row card-panel transparent">
+			<form>
+				<div class="col s12 input-field">
+					<i class="material-icons prefix">account_circle</i>
+					<input id="first_name" type="text" class="validate">
+					<label for="first_name">First Name / Last Name</label>
+				</div>
+				<div class="input-field col s12">
+					<i class="material-icons prefix">mail_outline</i>
+					<input id="email" type="email" class="validate">
+					<label for="email">Email</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<form action="#">
+					<p class="center">
+						<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
+						<label for="filled-in-box">I agree to Lyft's</label>
+						<label class="blue-text text-darken-2">Terms of service</label>
+					</p>
 				</form>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="row">
-				<div class="col s12 m12">
-					<form action="#">
-						<p class="center">
-							<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
-							<label for="filled-in-box">I agree to Lyft's</label>
-							<label class="blue-text text-darken-2">Terms of service</label>
-						</p>
-					</form>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col m12 s11 center">
-					<button class="btn-large waves-effect waves-light purple accent-4 botonNext" type="submit" name="action">Next
-						<!-- <i class="material-icons right"> send</i> -->
-					</button>		
-					<!-- <a class="waves-effect waves-light btn-large"><i class="material-icons left"></i>button</a> -->
+				<div class="col s12 center">
+					<a href="mapa.html" class="btn-large waves-effect waves-light purple accent-4 botonNext">Next
+						<input type="tel" name="telefono">	
+					</a>	
 				</div>
 			</div>
 		</div>
-
-		<!-- <div class="container">
-			<div class="row">
-				<div class="col m12 s12">
-					
-					<form action="">
-						<p>
-							<input type="button" value="Q" class="transparent" />
-							<input type="button" value="W" class="transparent" />
-							<input type="button" value="E" class="transparent" />
-							<input type="button" value="R" class="transparent" />
-							<input type="button" value="T" class="transparent" />
-							<input type="button" value="Y" class="transparent" />
-							<input type="button" value="U" class="transparent" />
-							<input type="button" value="I" class="transparent" />
-							<input type="button" value="O" class="transparent" />
-							<input type="button" value="P" class="transparent" />
-						</p>
-						<p>
-							<input type="button" value="A" class="transparent" />
-							<input type="button" value="S" class="transparent" />
-							<input type="button" value="D" class="transparent" />
-							<input type="button" value="F" class="transparent" />
-							<input type="button" value="G" class="transparent" />
-							<input type="button" value="H" class="transparent" />
-							<input type="button" value="J" class="transparent" />
-							<input type="button" value="K" class="transparent" />
-							<input type="button" value="L" class="transparent" />
-							<input type="button" value="Ñ" class="transparent" />
-						</p>
-						<p>
-							<input type="button" value="" class="transparent" /><i class="material-icons">backup</i>
-							<input type="button" value="Z" class="transparent" />
-							<input type="button" value="X" class="transparent" />
-							<input type="button" value="C" class="transparent" />
-							<input type="button" value="V" class="transparent" />
-							<input type="button" value="B" class="transparent" />
-							<input type="button" value="N" class="transparent" />
-							<input type="button" value="M" class="transparent" />
-							<input type="button" value="" class="transparent" /><i class="material-icons">backspace</i>
-						</p>
-						<p>
-							<input type="button" value="123" class="transparent" />
-							<input type="button" value="" class="transparent" /><i class="material-icons">account_circle</i>
-							<input type="button" value="Espacio" class="transparent" />
-							<input type="button" value="@" class="transparent" />
-							<input type="button" value="." class="transparent" />
-							<input type="button" value="Siguiente" class="transparent" />
-						</p>
-						
-					</form>
-				</div>
-			</div>
-		</div>	 -->
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
