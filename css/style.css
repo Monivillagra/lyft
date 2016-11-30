@@ -1,3 +1,4 @@
+/*index*/
 .imgFondo{
     background-image: url(../img/Lyft_PressKit_01.JPG);
     background-repeat: no-repeat;
@@ -10,6 +11,7 @@
     margin: 13% 0% 160% 0%;
     padding: 0% 60% 30% 0%;
 }
+/*signup*/
 .botonNext{
     padding: 0% 48%;
 }
