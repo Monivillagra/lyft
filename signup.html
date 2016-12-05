@@ -23,55 +23,38 @@
 		</div>
 	</header>
 
-	<div class="container">
-		<div class="row card-panel transparent">
-			<div class="col s12">
-				<div class="col s3">
-					<!-- <label>Browser Select</label> -->
-					<select class="browser-default">
-						<option value="" disabled selected>
-							<img src="" alt="">
-						</option>
-						<option data-icon="img/img_paises/Chile.png" value="1">Chile</option>
-						<option value="2">Peru</option>
-						<option value="3">Mexico</option>
-					</select>
-				</div>
-				<div class="col s9">
-					<!-- <label>Browser Select</label> -->
-					<select class="browser-default">
-						<option value="" disabled selected></option>
-						<option value="1"></option>
-						<option value="2"></option>
-						<option value="3"></option>
-					</select>
+	<section>
+		<div class="container">
+			<div class="row card-panel transparent">
+				<div class="col s12">
+					<div class="col s3 input-field">
+						<!-- <label>Browser Select</label> -->
+						<select class="browser-default">
+							<option value="" disabled selected>País</option>
+							<option data-icon="img/img_paises/Chile.png" class="left">Chile</option>
+							<option data-icon="img/img_paises/Peru.png" class="left">Peru</option>
+							<option data-icon="img/img_paises/México.png" class="left">Mexico</option>
+						</select>
+					</div>
+					<div class="col s9 input-field">
+						<input type="tel" name="telefono" length="12">
+						<label for="">Telefono</label>
+					</div>
 				</div>
 			</div>
-		</div>
-		<p class="center">We'll send a text to verify your phone</p>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col s12 center">
-				<a href="signup 2.html" class="btn-large waves-effect waves-light purple accent-4 botonNext">Next
-					<input type="tel" name="telefono">	
-				</a>	
+			<div class="row center">
+				<div class="col s12">	
+					<p>We'll send a text to verify your phone</p>
+				</div>
 			</div>
+			<a href="signup 2.html" class="btn-large waves-effect waves-light purple accent-4 botonNext">Next
+				<!-- <input type="tel" name="telefono">	 -->
+			</a>
 		</div>
-	</div>
+	</section>
 
-		<!-- <form action="">
-			<input type="tel" name="telefono">
-		</form>
-		<input type="tel" name="telefono">
-		<form name="ejemplo1" action="15-html5-tel-input.php" method="POST">
-			Introduce tu TELEFONO: <input type="tel" name="telefono">
-			<input type="submit" value="Enviar">
-		</form> -->
-
-		<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
-		<script type="text/javascript" src="js/materialize.min.js" ></script>
-		<script type="text/javascript" src="js/script.js" ></script>
-	</body>
-	</html>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript" src="js/materialize.min.js" ></script>
+	<script type="text/javascript" src="js/script.js" ></script>
+</body>
+</html>

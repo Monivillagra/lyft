@@ -21,24 +21,22 @@
 			</div>
 		</div>
 	</header>
-
 	<div class="container">
 		<div class="row card-panel transparent">
 			<form>
 				<div class="col s12 input-field">
 					<i class="material-icons prefix">account_circle</i>
-					<input id="first_name" type="text" class="validate">
+					<input id="first_name" type="text"  length="30" class="validate">
 					<label for="first_name">First Name / Last Name</label>
 				</div>
 				<div class="input-field col s12">
 					<i class="material-icons prefix">mail_outline</i>
-					<input id="email" type="email" class="validate">
-					<label for="email">Email</label>
+					<input id="email" type="email" length="50" class="validate">
+					<label for="email" data-error="wrong" data-success="right">Email</label>
 				</div>
 			</form>
 		</div>
 	</div>
-
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -46,12 +44,11 @@
 					<p class="center">
 						<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
 						<label for="filled-in-box">I agree to Lyft's</label>
-						<label class="blue-text text-darken-2">Terms of service</label>
+						<a href="#">Terms of service</a>
 					</p>
 				</form>
 			</div>
 		</div>
-
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center">
